@@ -1,0 +1,17 @@
+.btn_wrapper{
+    font-size: 20px;
+    font-family: "Rebound";
+    padding: 18px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    font-weight: 700;
+    width: 400px;
+
+    &:hover{
+        background-color: #EAE0BD; // Example hover effect
+        cursor: pointer;
+        border: 2px solid #EAE0BD;
+    }
+}

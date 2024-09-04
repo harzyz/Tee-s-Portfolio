@@ -1,0 +1,29 @@
+.wrapper{
+    border: 1px solid red;
+    padding: 30px 137px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+        color: #580067;
+        font-size: 35px;
+    }
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+.nav_items{
+    display:  flex;
+    align-items: center;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+
+    li{
+        font-size: 20px;
+        
+    }
+}
+
