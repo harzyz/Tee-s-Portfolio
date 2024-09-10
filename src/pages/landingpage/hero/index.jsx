@@ -12,11 +12,13 @@ const Hero = () => {
         </div>
         <div>
           <p className={styles.description}>
-            I'm a UI UX designer with a focus on creating exceptional digital
-            experiences
+            I'm a UI UX designer with a focus on creating
           </p>
           <p className={styles.description}>
-            that are fast, accessible, visually appealing, and responsive.
+            exceptional digital experiences that are fast,
+          </p>
+          <p className={styles.description}>
+            accessible, visually appealing, and responsive.
           </p>
         </div>
         <Button label={"Lets talk"} />

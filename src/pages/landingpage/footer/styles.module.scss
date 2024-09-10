@@ -1,0 +1,30 @@
+.wrapper{
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+.contact_group{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.getInTouch{
+    font-size: 96px;
+    text-align: center;
+    font-weight: 400;
+}
+.get_text{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.contact{
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    justify-content: center;
+    gap: 47px;
+    font-size: 1.25rem;
+}

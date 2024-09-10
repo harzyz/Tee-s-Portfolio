@@ -66,14 +66,24 @@
         font-size: 36px;
         font-weight: 600;
     }
+
+    p{
+        font-family: "Outfit";
+        font-size: 1rem;
+    }
 }
 .view_more{
     display: flex;
     gap: 15px;
     color: #000;
     text-decoration: none;
+    font-family: "Outfit";
+    align-items: center;
 }
 .link{
     text-decoration: none;
     color: inherit; 
+}
+.description{
+    font-family: "Outfit";
 }

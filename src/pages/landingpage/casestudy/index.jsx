@@ -10,7 +10,7 @@ const CaseStudy = () => {
       <div className={styles.case_study}>
         <Image src={Casestudy} alt='Case Study' />
         <div className={styles.inner_case}>
-            <Button color="#fff" bdColor="#fff" label={"Case Study"} />
+            <Button label={"Case Study"} />
         </div>
       </div>
     </div>
