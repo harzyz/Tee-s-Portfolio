@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.contact_group}>
         <h1 className={styles.getInTouch}>Get in touch</h1>
         <p className={styles.get_text}>
-          What&apos;s next? Feel free to reach out to me if you're looking for a <br />
+          What&apos;s next? Feel free to reach out to me if you&apos;re looking for a <br />
           UI UX Designer, have a query, or simply want to connect.
         </p>
         <Image src={Arrow} alt="Arrow" />

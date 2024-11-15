@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Button from "@/components/custom_button";
-import Noise from "../../../../public/images/noise.png";
-import Background from "../../../../public/images/background.png"
+import Noise from "/public/images/Noise.png";
+import Background from "/public/images/background.png"
 import Image from "next/image";
 
 const Hero = () => {
@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           <div>
             <p className={styles.description}>
-              I'm a UI UX designer with a focus on creating
+              I&apos;m a UI UX designer with a focus on creating
             </p>
             <p className={styles.description}>
               exceptional digital experiences that are fast,
