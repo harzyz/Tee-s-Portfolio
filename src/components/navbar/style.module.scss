@@ -4,7 +4,7 @@
     justify-content: space-between;
     position: relative;
     z-index: 160;
-    background-color: rgb(224, 224, 224, 0.9);
+    background-color: rgb(224, 224, 224, 0.7);
 
     .logo{
         color: #580067;
@@ -27,7 +27,7 @@
 
     li{
         font-size: 1.25rem;
-        
+        cursor: pointer;
     }
 }
 
