@@ -1,0 +1,32 @@
+.wrapper {
+  border: 2px solid #00000033;
+  height: 167px;
+  border-radius: 20px;
+  padding: 14px;
+  font-family: "Rebound";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .item_number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0000003d;
+  }
+
+  .item_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .item_label {
+      font-size: 20px;
+      color: #1f1f1f;
+    }
+
+    .item_desc {
+      font-size: 14px;
+      color: #00000070;
+    }
+  }
+}

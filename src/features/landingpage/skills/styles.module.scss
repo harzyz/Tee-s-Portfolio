@@ -1,0 +1,11 @@
+.wrapper{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .inner_wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
