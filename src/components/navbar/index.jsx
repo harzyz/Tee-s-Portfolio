@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./style.module.scss";
 import Tee from "/public/images/Tee.svg";
 import Image from "next/image";
+import ToggleDarkMode from "../toggle-button";
 
 const Navbar = () => {
   const navItems = ["Portfolio", "Skills", "Contact"];
@@ -16,7 +17,7 @@ const Navbar = () => {
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <input type="radio" />
+        <ToggleDarkMode />
       </div>
     </nav>
   );

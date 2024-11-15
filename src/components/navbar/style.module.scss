@@ -2,6 +2,9 @@
     padding: 30px 137px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 160;
+    background-color: rgb(224, 224, 224, 0.9);
 
     .logo{
         color: #580067;

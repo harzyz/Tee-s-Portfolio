@@ -1,0 +1,63 @@
+.wrapper {
+  height: 42px;
+  width: 90px;
+  border-radius: 99px;
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-color: #d3d3d3;
+    border-radius: 99px;
+    // padding: 1px px;
+
+    .toggler {
+      border-radius: 100%;
+      background-color: #fff;
+      width: 36px;
+      height: 36px;
+      transition: transform 0.3s ease;
+      position: absolute;
+      left: 5px;
+      top: 3px;
+      z-index: 8;
+    }
+
+    .moon_icon {
+      position: absolute;
+      z-index: 2;
+      right: 5px;
+      top: 7px;
+    }
+  }
+
+  .container3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: justify-content 0.3s ease;
+    position: relative;
+    border-radius: 99px;
+    background-color: #000;
+    // padding: 1px 5px;
+
+    .toggler {
+      border-radius: 100%;
+      background-color: #fff;
+      width: 36px;
+      height: 36px;
+      transition: transform 0.3s ease;
+      position: absolute;
+      right: 5px;
+      top: 3px;
+      z-index: 8;
+    }
+
+    .sun_icon {
+      position: absolute;
+      z-index: 2;
+      left: 8px;
+    }
+  }
+}
