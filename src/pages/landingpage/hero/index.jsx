@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Button from "@/components/custom_button";
-import Noise from "/public/images/noise.png";
-import Background from "/public/images/background.png"
+import Noise from "../../../../public/images/noise.png";
+import Background from "../../../../public/images/background.png"
 import Image from "next/image";
 
 const Hero = () => {
