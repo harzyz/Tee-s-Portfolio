@@ -12,6 +12,29 @@ export const MoonIcon = () => (
     />
   </svg>
 );
+export const ArrowLeft = ({ className }) => (
+  <svg
+    className={className}
+    width="26"
+    height="19"
+    viewBox="0 0 26 19"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M0.543945 10.8435C-0.181315 10.1015 -0.181315 8.89849 0.543945 8.1565L7.97252 0.556498C8.69778 -0.185499 9.87365 -0.185499 10.5989 0.556498C11.3242 1.29849 11.3242 2.50151 10.5989 3.2435L4.48354 9.5L10.5989 15.7565C11.3242 16.4985 11.3242 17.7015 10.5989 18.4435C9.87365 19.1855 8.69778 19.1855 7.97252 18.4435L0.543945 10.8435Z"
+      fill="#1F1F1F"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M4.45369e-07 9.5C4.57883e-07 8.45066 0.831471 7.6 1.85714 7.6L24.1429 7.6C25.1685 7.6 26 8.45066 26 9.5C26 10.5493 25.1685 11.4 24.1429 11.4L1.85714 11.4C0.831471 11.4 4.32856e-07 10.5493 4.45369e-07 9.5Z"
+      fill="#1F1F1F"
+    />
+  </svg>
+);
 
 export const SunIcon = () => (
   <svg
@@ -23,7 +46,7 @@ export const SunIcon = () => (
   >
     <mask
       id="mask0_1394_146"
-      style={{ maskType: 'luminance'}}
+      style={{ maskType: "luminance" }}
       maskUnits="userSpaceOnUse"
       x="0"
       y="0"

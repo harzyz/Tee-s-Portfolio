@@ -5,7 +5,7 @@ import Arrow from "/public/images/arrow.svg";
 
 const Footer = () => {
   return (
-    <div className={styles.wrapper}>
+    <div id="contact" className={styles.wrapper}>
       <div className={styles.contact_group}>
         <h1 className={styles.getInTouch}>Get in touch</h1>
         <p className={styles.get_text}>

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./styles.module.scss";
 import Button from "@/components/custom_button";
 import Noise from "/public/images/Noise.png";
-import Background from "/public/images/background.png"
+import Background from "/public/images/background.png";
 import Image from "next/image";
 
 const Hero = () => {
@@ -27,7 +27,9 @@ const Hero = () => {
               accessible, visually appealing, and responsive.
             </p>
           </div>
-          <Button label={"Lets talk"} />
+          <a href="#contact">
+            <Button label={"Lets talk"} />
+          </a>
         </div>
       </div>
     </div>

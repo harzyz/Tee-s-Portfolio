@@ -1,19 +1,27 @@
 .wrapper {
   width: 100%;
-  border: 1px solid red;
   background-color: #fff;
   padding: 50px;
   height: 100%;
   min-height: 100vh;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  position: relative;
 
+  .arrow_icon{
+    position: absolute;
+    left: 15px;
+    top: 70px;
+  }
   .content_wrapper {
     display: flex;
     gap: 10px;
     flex-direction: column;
     h4 {
       font-weight: 500;
+    }
+    h3{
+      margin-top: 20px;
     }
     .short_list {
       padding-left: 20px;
