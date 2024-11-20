@@ -54,6 +54,7 @@
 
 @media screen and (max-width: 750px) {
   .wrapper{
+    height: calc(100vh - 55px);
     .container{
       overflow: hidden;
       .inner_wrapper{

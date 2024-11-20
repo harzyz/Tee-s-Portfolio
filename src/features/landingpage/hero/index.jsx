@@ -12,11 +12,11 @@ const Hero = () => {
       <Image className={styles.overlay} src={Background} alt="noise" />
       <div className={styles.container}>
         <div className={styles.inner_wrapper}>
-          <div>
+          <div data-aos="zoom-in">
             <h1>Hi, I&apos;m Lateefah</h1>
             <h1>Abdulrahman 👋</h1>
           </div>
-          <div>
+          <div data-aos="zoom-out">
             <p className={styles.description}>
               I&apos;m a UI UX designer with a focus on creating
             </p>
@@ -27,7 +27,7 @@ const Hero = () => {
               accessible, visually appealing, and responsive.
             </p>
           </div>
-          <a href="#contact">
+          <a data-aos="fade-up" href="#contact">
             <Button label={"Lets talk"} />
           </a>
         </div>

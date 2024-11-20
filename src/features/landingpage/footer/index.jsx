@@ -16,7 +16,7 @@ const Footer = () => {
         <Image src={Arrow} alt="Arrow" />
         <div className={styles.contact}>
           <p>+2348133368767</p>
-          <Link href="">LinkedIn</Link>
+          {/* <Link href="">LinkedIn</Link> */}
           <Link href="mailto:abdulrahmanlateefah90@gmail.com">abdulrahmanlateefah90@gmail.com</Link>
         </div>
       </div>

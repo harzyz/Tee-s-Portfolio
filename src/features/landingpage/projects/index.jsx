@@ -52,7 +52,7 @@ const Projects = () => {
       <Header label={"Projects"} />
       {Projects.map((project) => (
         <div key={project.id} className={styles.special_magic}>
-          <div className={styles.special_box}>
+          <div data-aos="zoom-out" className={styles.special_box}>
             <div className={styles.special_boxsub}>
               <Image src={project.imgUrl} alt={project.label} />
             </div>
@@ -68,7 +68,7 @@ const Projects = () => {
               </Link>
             </div>
           </div>
-          <div className={styles.magic_box}>
+          <div data-aos="zoom-in" className={styles.magic_box}>
             <div className={styles.magic_boxsub}>
               <Image src={project.imgUrl1} alt={project.label1}/>
             </div>
