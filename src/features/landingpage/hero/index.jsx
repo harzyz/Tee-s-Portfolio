@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className={styles.wrapper}>
       <Image className={styles.noise} src={Noise} alt="noise" />
-      <Image className={styles.overlay} src={Background} alt="noise" />
+      {/* <Image className={styles.overlay} src={Background} alt="noise" /> */}
       <div className={styles.container}>
         <div className={styles.inner_wrapper}>
           <div data-aos="zoom-in">
