@@ -18,7 +18,7 @@ const Navbar = () => {
             <li key={index}>{item}</li>
           ))}
         </ul>
-        <ToggleDarkMode />
+        {/* <ToggleDarkMode /> */}
       </div>
       <HamburgerMenu />
     </nav>

@@ -13,7 +13,7 @@ export default function Home() {
       <Projects />
       <CaseStudy />
       <Skills />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }

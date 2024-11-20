@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./styles.module.scss";
 import Image from "next/image";
 import Arrow from "/public/images/arrow.svg";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -15,8 +16,8 @@ const Footer = () => {
         <Image src={Arrow} alt="Arrow" />
         <div className={styles.contact}>
           <p>+2348133368767</p>
-          <a href="">LinkedIn</a>
-          <p>abdulrahmanlateefah90@gmail.com</p>
+          <Link href="">LinkedIn</Link>
+          <Link href="mailto:abdulrahmanlateefah90@gmail.com">abdulrahmanlateefah90@gmail.com</Link>
         </div>
       </div>
     </div>

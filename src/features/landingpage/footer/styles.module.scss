@@ -18,8 +18,9 @@
 }
 .get_text{
     font-family: "Outfit", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.25rem;
+    text-align: center;
 }
 .contact{
     display: flex;
@@ -27,4 +28,25 @@
     justify-content: center;
     gap: 47px;
     font-size: 1.25rem;
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .getInTouch{
+        font-size: 48px;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .get_text{
+        font-size: 1rem;
+        max-width: 90%;
+        br{
+            display: none;
+        }
+    }
 }
