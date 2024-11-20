@@ -90,6 +90,52 @@
 .description {
   font-family: "Outfit";
 }
+@media screen and (max-width: 1224px) {
+  .wrapper {
+    padding: 50px;
+    height: 100%;
+  }
+  // .special_magic {
+  //   flex-direction: column;
+  //   gap: 30px;
+  //   padding: 0;
+  //   height: 100%;
+  // }
+  .special_box {
+    width: 100%;
+    padding-right: 20px;
+  }
+  .magic_box {
+    width: 100%;
+    padding-left: 20px;
+  }
+  // .special_boxsub {
+  //   height: 300px;
+  //   padding: 20px;
+  // }
+  // .magic_boxsub {
+  //   height: 300px;
+  //   padding: 20px;
+  // }
+  // .detail_wrap {
+  //   display: flex;
+  //   flex-direction: column;
+  //   gap: none;
+
+  //   h3 {
+  //     font-size: 30px;
+  //     font-weight: 400;
+  //   }
+
+  //   p {
+  //     font-family: "Outfit";
+  //     font-size: 1rem;
+  //   }
+  // }
+  // .detail_box{
+  //   padding: 0px;
+  // }
+}
 @media screen and (max-width: 750px) {
   .wrapper {
     padding: 30px;

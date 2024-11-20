@@ -9,6 +9,10 @@
   scroll-behavior: smooth;
 }
 
+.hold_for_show{
+  max-width: 1700px;
+  margin: 0 auto;
+}
 @font-face {
   font-family: 'Rebound';
   src: url('/fonts/ESRebondGrotesqueTRIAL-Bold-BF66189040400df.otf') format('opentype');
