@@ -5,10 +5,27 @@ import Tee from "/public/images/Tee.svg";
 import Image from "next/image";
 import ToggleDarkMode from "../toggle-button";
 import { HamburgerMenu } from "../icons/Icons";
+import Link from "next/link";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  const navItems = ["Portfolio", "Skills", "Contact"];
+  const navItems = [
+    {
+      id: 1,
+      label: "Projects",
+      tag: "#projects",
+    },
+    {
+      id: 2,
+      label: "Skills",
+      tag: "#skills",
+    },
+    {
+      id: 3,
+      label: "Contact",
+      tag: "#contact",
+    },
+  ];
   return (
     <nav className={styles.wrapper}>
       <div className={styles.logo}>
@@ -17,7 +34,9 @@ const Navbar = () => {
       <div className={styles.navigation}>
         <ul className={styles.nav_items}>
           {navItems.map((item, index) => (
-            <li key={index}>{item}</li>
+            <Link href={item.tag}>
+              <li key={index}>{item.label}</li>
+            </Link>
           ))}
         </ul>
         {/* <ToggleDarkMode /> */}
@@ -27,11 +46,15 @@ const Navbar = () => {
       </span>
 
       {/* {menu && ( */}
-        <ul className={menu ? styles.hamburgerMobile : styles.hamburgerMobileclose}>
-          {navItems.map((item, index) => (
-            <li key={index}>{menu && item}</li>
-          ))}
-        </ul>
+      <ul
+        className={menu ? styles.hamburgerMobile : styles.hamburgerMobileclose}
+      >
+        {navItems.map((item, index) => (
+          <Link href={item.tag}>
+            <li key={index}>{menu && item.label}</li>
+          </Link>
+        ))}
+      </ul>
       {/* )} */}
     </nav>
   );

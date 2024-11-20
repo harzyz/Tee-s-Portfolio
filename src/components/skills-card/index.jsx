@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
-const SkillsCard = ({ skill }) => {
+const SkillsCard = ({ skill, data }) => {
   const { id, skill_label, desc } = skill;
   return (
-    <div className={styles.wrapper}>
+    <div data-aos={data} className={styles.wrapper}>
       <span className={styles.item_number}>{`O` + id}</span>
       <span className={styles.item_info}>
         <p className={styles.item_label}>{skill_label}</p>

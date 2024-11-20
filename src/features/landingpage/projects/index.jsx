@@ -48,7 +48,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className={styles.wrapper}>
+    <div id="projects" className={styles.wrapper}>
       <Header label={"Projects"} />
       {Projects.map((project) => (
         <div key={project.id} className={styles.special_magic}>

@@ -13,7 +13,7 @@ const CaseStudy = () => {
       <div className={styles.case_study}>
         <Image src={Casestudy} alt="Case Study" />
         <div className={styles.inner_case}>
-          <Link href={'/case-study'}>
+          <Link data-aos='fade-in' href={'/case-study'}>
             <Button label={"Read More"} />
           </Link>
         </div>

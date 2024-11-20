@@ -7,7 +7,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div id="contact" className={styles.wrapper}>
-      <div className={styles.contact_group}>
+      <div data-aos='zoom-in' className={styles.contact_group}>
         <h1 className={styles.getInTouch}>Get in touch</h1>
         <p className={styles.get_text}>
           What&apos;s next? Feel free to reach out to me if you&apos;re looking for a <br />
