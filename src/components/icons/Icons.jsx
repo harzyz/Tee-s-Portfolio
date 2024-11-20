@@ -63,3 +63,34 @@ export const SunIcon = () => (
     </g>
   </svg>
 );
+export const HamburgerMenu = () => (
+  <svg
+    width="20"
+    height="21"
+    viewBox="0 0 20 21"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M2.5 6.30298H17.5"
+      stroke="#252525"
+      stroke-opacity="0.93"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M2.5 10.4696H17.5"
+      stroke="#252525"
+      stroke-opacity="0.93"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M2.5 14.6362H17.5"
+      stroke="#252525"
+      stroke-opacity="0.93"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+  </svg>
+);

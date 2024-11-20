@@ -25,3 +25,14 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 750px){
+    .wrapper{
+        padding: 0;
+    }
+    .case_study{
+        // border-radius: 0;
+        img{
+            // border-radius: 0;
+        }
+    }
+}
