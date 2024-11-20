@@ -9,3 +9,12 @@
         gap: 10px;
     }
 }
+@media screen and (max-width: 500px) {
+    .wrapper{
+        padding: 38px 20px;
+
+        .inner_wrapper{
+            grid-template-columns: 1fr;
+        }
+    }
+}

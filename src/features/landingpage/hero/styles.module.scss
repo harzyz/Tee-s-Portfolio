@@ -60,3 +60,19 @@
   font-family: "Outfit";
   color: #696969;
 }
+
+@media screen and (max-width: 750px) {
+  .wrapper{
+    overflow: hidden;
+    .container{
+      .inner_wrapper{
+        h1{
+          font-size: 36px;
+        }
+      }
+    }
+    .overlay{
+      display: none;
+    }
+  }
+}

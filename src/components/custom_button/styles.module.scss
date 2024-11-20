@@ -16,3 +16,8 @@
         transform: scale(0.95);
     }
 }
+@media screen and (max-width: 750px) {
+    .btn_wrapper{
+        width: 200px;
+    }
+}
