@@ -56,9 +56,11 @@
 
 @media screen and (max-width: 750px) {
   .wrapper{
-    height: calc(100vh - 55px);
+    height: calc(100vh - 85px);
+    // height: 100vh;
     .container{
       overflow: hidden;
+      height: 100%;
       .inner_wrapper{
         h1{
           font-size: 36px;
@@ -69,7 +71,7 @@
       display: none;
     }
     .noise{
-      height: calc(100% - 55px);
+      // height: calc(100% - 55px);
     }
   }
   .description {
