@@ -34,8 +34,8 @@ const Navbar = () => {
       <div className={styles.navigation}>
         <ul className={styles.nav_items}>
           {navItems.map((item, index) => (
-            <Link href={item.tag}>
-              <li key={index}>{item.label}</li>
+            <Link key={index} href={item.tag}>
+              <li>{item.label}</li>
             </Link>
           ))}
         </ul>
@@ -50,8 +50,8 @@ const Navbar = () => {
         className={menu ? styles.hamburgerMobile : styles.hamburgerMobileclose}
       >
         {navItems.map((item, index) => (
-          <Link href={item.tag}>
-            <li key={index}>{menu && item.label}</li>
+          <Link key={index} href={item.tag}>
+            <li>{menu && item.label}</li>
           </Link>
         ))}
       </ul>

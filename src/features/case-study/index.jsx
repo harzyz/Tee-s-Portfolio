@@ -239,7 +239,7 @@ const CaseStudy = () => {
         </h4>
         <ol className={styles.short_list}>
           {OutcomeOne.map((item) => (
-            <li>{item.process}</li>
+            <li key={item.id}>{item.process}</li>
           ))}
         </ol>
         <h4>
@@ -254,19 +254,19 @@ const CaseStudy = () => {
         <h4>Approach:</h4>
         <ul className={styles.short_list}>
           {ApproachOne.map((item) => (
-            <li>{item.process}</li>
+            <li key={item.id}>{item.process}</li>
           ))}
         </ul>
         <h4>Key Considerations:</h4>
         <ul className={styles.short_list}>
           {KeyConsiderations.map((item) => (
-            <li>{item.process}</li>
+            <li key={item.id}>{item.process}</li>
           ))}
         </ul>
         <h4>Outcome: The user flow was defined as follows:</h4>
         <ol className={styles.short_list}>
           {OutcomeTwo.map((item) => (
-            <li>{item.process}</li>
+            <li key={item.id}>{item.process}</li>
           ))}
         </ol>
         <h3>3. Wireframing</h3>
@@ -277,13 +277,13 @@ const CaseStudy = () => {
         <h4>Approach:</h4>
         <ul className={styles.short_list}>
           {ApproachTwo.map((item) => (
-            <li>{item.process}</li>
+            <li key={item.id}>{item.process}</li>
           ))}
         </ul>
         <h4>Key Screens:</h4>
         <ol className={styles.short_list}>
           {KeyScreens.map((item) => (
-            <li>{item.process}</li>
+            <li key={item.id}>{item.process}</li>
           ))}
         </ol>
         <h3>4. Usability Testing and Iteration</h3>
@@ -294,7 +294,7 @@ const CaseStudy = () => {
         <h4>Approach:</h4>
         <ul className={styles.short_list}>
           {ApproachThree.map((item) => (
-            <li>{item.process}</li>
+            <li key={item.id}>{item.process}</li>
           ))}
         </ul>
         <h4>
