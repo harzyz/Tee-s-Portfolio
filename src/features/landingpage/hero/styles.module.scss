@@ -34,7 +34,8 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: calc(100vh - 55px);
+    height: calc(100% - 10px);
+    // height: calc(100vh - 55px);
     z-index: 3; 
   }
   .overlay{
@@ -65,6 +66,9 @@
     }
     .overlay{
       display: none;
+    }
+    .noise{
+      height: calc(100% - 55px);
     }
   }
   .description {

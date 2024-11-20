@@ -1,5 +1,8 @@
 .wrapper {
   padding: 104px 127px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 .special_magic {
   width: 100%;

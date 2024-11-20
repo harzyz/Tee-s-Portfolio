@@ -211,7 +211,7 @@ const CaseStudy = () => {
           moving on to defining the user flow, and finally creating the
           wireframes. The steps involved were:
         </h4>
-        <ol className={styles.short_list}>
+        <ol data-aos='fade-in' className={styles.short_list}>
           {DesignProcess.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
@@ -222,7 +222,7 @@ const CaseStudy = () => {
           needs to inform the design decisions.
         </h4>
         <h4>Approach:</h4>
-        <ul className={styles.short_list}>
+        <ul data-aos='fade-in' className={styles.short_list}>
           <li>
             Interviews: Conducted interviews with potential users from various
             backgrounds, including project managers, freelancers, small business
@@ -237,7 +237,7 @@ const CaseStudy = () => {
         <h4>
           Outcome: From the research, five key user personas were developed:
         </h4>
-        <ol className={styles.short_list}>
+        <ol data-aos='fade-in' className={styles.short_list}>
           {OutcomeOne.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
@@ -252,19 +252,19 @@ const CaseStudy = () => {
           users to collaborate on and share tasks.
         </h4>
         <h4>Approach:</h4>
-        <ul className={styles.short_list}>
+        <ul data-aos='fade-in' className={styles.short_list}>
           {ApproachOne.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
         </ul>
         <h4>Key Considerations:</h4>
-        <ul className={styles.short_list}>
+        <ul data-aos='fade-in' className={styles.short_list}>
           {KeyConsiderations.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
         </ul>
         <h4>Outcome: The user flow was defined as follows:</h4>
-        <ol className={styles.short_list}>
+        <ol data-aos='fade-in' className={styles.short_list}>
           {OutcomeTwo.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
@@ -275,13 +275,13 @@ const CaseStudy = () => {
           interactions based on the defined user flow.
         </h4>
         <h4>Approach:</h4>
-        <ul className={styles.short_list}>
+        <ul data-aos='fade-in' className={styles.short_list}>
           {ApproachTwo.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
         </ul>
         <h4>Key Screens:</h4>
-        <ol className={styles.short_list}>
+        <ol data-aos='fade-in' className={styles.short_list}>
           {KeyScreens.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
@@ -292,7 +292,7 @@ const CaseStudy = () => {
           of the target audience.
         </h4>
         <h4>Approach:</h4>
-        <ul className={styles.short_list}>
+        <ul data-aos='fade-in' className={styles.short_list}>
           {ApproachThree.map((item) => (
             <li key={item.id}>{item.process}</li>
           ))}
