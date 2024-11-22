@@ -3,48 +3,52 @@ import React from "react";
 import styles from "./styles.module.scss";
 import Link from "next/link";
 import Arrow from "/public/images/Vector.svg";
-import Collab from "/public/images/collab.png";
+import LifeFriends from "/public/images/lifefriends.png";
 import Rogue from "/public/images/roguedev.png";
 import Baselink from "/public/images/baselink.png";
 import Digi from "/public/images/digidish.png";
 import Kemmiespecial from "/public/images/kemmispecial.png";
 import Lenbo from "/public/images/lenbo.png";
 import Image from "next/image";
+import Chopbet from "/public/images/chopbet.png"
+import Clubarant from "/public/images/clubarant.png"
+import Tosin from "/public/images/Tosin.png"
+import ChopLife from "/public/images/choplife.png"
 
 const Projects = () => {
   const Projects = [
     {
       id: 1,
-      label: "Collab",
-      description: "Task assignment",
-      link: "https://www.figma.com/design/cLwQw8XP6iidEmeIE8Xnp3/task-management-and-collab?node-id=15-2746&node-type=frame&t=pV8ZEgMnPh4I6RaN-0",
-      imgUrl: Collab,
-      label1: "Rogue dev",
-      description1: "Software website",
-      link1: "https://www.roguedevtech.com/",
-      imgUrl1: Rogue,
+      label: "Life friends",
+      description: "Community",
+      link: "https://www.lifefriends.co/",
+      imgUrl: LifeFriends,
+      label1: "ChopBet",
+      description1: "Gaming",
+      link1: "https://dev.chopbet.ci/",
+      imgUrl1: Chopbet,
     },
     {
       id: 2,
-      label: "Digi dish",
+      label: "Clubarant",
       description: "E-menu website",
-      link: "https://www.figma.com/design/sbM6VgAgqxTkr1NHXceqzM/Digi-dish?t=jf9fBBHKUqqGqI7o-0",
-      imgUrl: Digi,
-      label1: "Baselink",
-      description1: "E-learning",
-      link1: "https://www.figma.com/design/TpYTIZKe0TvRGRdW6aDWZz/baselinks-academy?t=hp48Q0bzL4tq0BRh-0",
-      imgUrl1: Baselink,
+      link: "https://www.clubarant.com/",
+      imgUrl: Clubarant,
+      label1: "Tosin Yusuf",
+      description1: "Portfolio",
+      link1: "https://portfolio-mu-ecru-22.vercel.app/",
+      imgUrl1: Tosin,
     },
     {
       id: 3,
-      label: "Kemmiespecial",
-      description: "Catering service",
-      link: "https://www.figma.com/design/7iBMD7KISyE6S6y7WrTS8P/Kemmie-special?t=ASWUPqyyDjEkzOFI-0",
-      imgUrl: Kemmiespecial,
-      label1: "Lenbo",
-      description1: "Loan app",
-      link1: "https://www.figma.com/design/P15eWv6kRHe3qYBB3hjNbj/Landing-page-design-wireframe?node-id=0-1&node-type=canvas&t=nD5JY59SIJWFjicW-0",
-      imgUrl1: Lenbo,
+      label: "Rogue dev",
+      description: "Software website",
+      link: "https://www.roguedevtech.com/",
+      imgUrl: Rogue,
+      label1: "Choplife Gaming",
+      description1: "Gaming",
+      link1: "https://www.choplifegaming.com/",
+      imgUrl1: ChopLife,
     },
   ];
   return (
