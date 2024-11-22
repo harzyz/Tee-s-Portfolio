@@ -1,15 +1,16 @@
 import React from "react";
 import styles from "./styles.module.scss";
 import Button from "@/components/custom_button";
-import Noise from "/public/images/Noise.png";
+import Noise from "/public/images/noises.png";
 import Background from "/public/images/background.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
     <div className={styles.wrapper}>
+      {/* <Image className={styles.noise} src={Noise} alt="noise" /> */}
       <Image className={styles.noise} src={Noise} alt="noise" />
-      {/* <Image className={styles.overlay} src={Background} alt="noise" /> */}
       <div className={styles.container}>
         <div className={styles.inner_wrapper}>
           <div data-aos="zoom-in">
@@ -27,9 +28,9 @@ const Hero = () => {
               accessible, visually appealing, and responsive.
             </p>
           </div>
-          <a data-aos="fade-up" href="#contact">
+          <Link data-aos="fade-up" href="#contact">
             <Button label={"Lets talk"} />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
