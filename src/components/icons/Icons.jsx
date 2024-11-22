@@ -74,23 +74,62 @@ export const HamburgerMenu = () => (
     <path
       d="M2.5 6.30298H17.5"
       stroke="#252525"
-      stroke-opacity="0.93"
-      stroke-width="1.5"
-      stroke-linecap="round"
+      strokeOpacity="0.93"
+      strokeWidth="1.5"
+      strokeLinecap="round"
     />
     <path
       d="M2.5 10.4696H17.5"
       stroke="#252525"
-      stroke-opacity="0.93"
-      stroke-width="1.5"
-      stroke-linecap="round"
+      strokeOpacity="0.93"
+      strokeWidth="1.5"
+      strokeLinecap="round"
     />
     <path
       d="M2.5 14.6362H17.5"
       stroke="#252525"
-      stroke-opacity="0.93"
-      stroke-width="1.5"
-      stroke-linecap="round"
+      strokeOpacity="0.93"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+    />
+  </svg>
+);
+export const Gun = () => (
+  <svg
+    width="125"
+    height="164"
+    viewBox="0 0 125 164"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M28 20.5V1H54V20.5H124V44.5H0.5V20.5H28Z"
+      stroke="#323232"
+      strokeOpacity="0.56"
+    />
+    <path
+      d="M18 44.5C51.5 75.2826 45.2606 117.418 56 163.5H79L56 45.5"
+      stroke="#323232"
+      strokeOpacity="0.56"
+    />
+  </svg>
+);
+export const Box = () => (
+  <svg
+    width="73"
+    height="40"
+    viewBox="0 0 73 40"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      x="0.5"
+      y="0.5"
+      width="72"
+      height="39"
+      rx="2.5"
+      stroke="#323232"
+      strokeOpacity="0.56"
     />
   </svg>
 );
