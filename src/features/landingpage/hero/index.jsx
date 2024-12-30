@@ -10,6 +10,7 @@ const Hero = () => {
   return (
     <div className={styles.wrapper}>
       {/* <Image className={styles.noise} src={Noise} alt="noise" /> */}
+      {/* <div className={styles.bouncingBall}></div> */}
       <Image className={styles.noise} src={Noise} alt="noise" />
       <div className={styles.container}>
         <div className={styles.inner_wrapper}>

@@ -83,6 +83,17 @@ const Projects = () => {
                 <Image src={project.imgUrl} alt={project.label} />
               )}
             </div>
+            <div className={styles.detail_box}>
+              <div className={styles.detail_wrap}>
+                <h3>{project.label}</h3>
+                <p>{project.description}</p>
+              </div>
+              <Link target="_blank" className={styles.link} href={project.link}>
+                <div className={styles.view_more}>
+                  View <Image src={Arrow} alt="Arrow" />
+                </div>
+              </Link>
+            </div>
           </div>
           <div data-aos="zoom-in" className={styles.magic_box}>
             <div
@@ -101,6 +112,17 @@ const Projects = () => {
               ) : (
                 <Image src={project.imgUrl1} alt={project.label} />
               )}
+            </div>
+            <div className={styles.detail_box}>
+              <div className={styles.detail_wrap}>
+                <h3>{project.label1}</h3>
+                <p>{project.description1}</p>
+              </div>
+              <Link target="_blank" className={styles.link} href={project.link}>
+                <div className={styles.view_more}>
+                  View <Image src={Arrow} alt="Arrow" />
+                </div>
+              </Link>
             </div>
           </div>
         </div>
