@@ -90,17 +90,16 @@
 .description {
   font-family: "Outfit";
 }
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media screen and (max-width: 1224px) {
   .wrapper {
     padding: 50px;
     height: 100%;
   }
-  // .special_magic {
-  //   flex-direction: column;
-  //   gap: 30px;
-  //   padding: 0;
-  //   height: 100%;
-  // }
   .special_box {
     width: 100%;
     padding-right: 20px;
