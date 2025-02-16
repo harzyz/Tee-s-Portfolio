@@ -118,7 +118,7 @@ const Projects = () => {
                 <h3>{project.label1}</h3>
                 <p>{project.description1}</p>
               </div>
-              <Link target="_blank" className={styles.link} href={project.link}>
+              <Link target="_blank" className={styles.link} href={project.link1}>
                 <div className={styles.view_more}>
                   View <Image src={Arrow} alt="Arrow" />
                 </div>
